@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureVPN — เช่า VPN ปลอดภัย เร็ว ราคาดี</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="logo">Secure<span>VPN</span></a>
+      <nav class="nav-links">
+        <a href="#features">จุดเด่น</a>
+        <a href="#plans">แพ็กเกจ</a>
+        <a href="#faq">คำถาม</a>
+        <a href="#contact" class="btn btn-sm">ติดต่อเช่า</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="เมนู">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="badge">บริการเช่า VPN สำหรับใช้งานส่วนตัว</p>
+        <h1>อินเทอร์เน็ตปลอดภัย<br>เร็ว และเป็นส่วนตัว</h1>
+        <p class="lead">
+          เช่าบัญชี VPN พร้อมใช้งาน รองรับมือถือและคอมพิวเตอร์
+          เลือกแพ็กเกจรายวัน รายเดือน ตามการใช้งานของคุณ
+        </p>
+        <div class="hero-actions">
+          <a href="#plans" class="btn">ดูแพ็กเกจ</a>
+          <a href="#contact" class="btn btn-outline">สอบถามก่อน</a>
+        </div>
+        <ul class="hero-points">
+          <li>เซิร์ฟเวอร์หลายประเทศ</li>
+          <li>ไม่เก็บประวัติการใช้งาน</li>
+          <li>ติดตั้งง่าย บน Android / iOS / PC</li>
+        </ul>
+      </div>
+      <div class="hero-card">
+        <div class="status">
+          <span class="dot"></span> พร้อมให้บริการ
+        </div>
+        <h3>ตัวอย่างความเร็ว</h3>
+        <div class="speed-row">
+          <div>
+            <small>ดาวน์โหลด</small>
+            <strong id="dlSpeed">—</strong>
+          </div>
+          <div>
+            <small>อัปโหลด</small>
+            <strong id="ulSpeed">—</strong>
+          </div>
+        </div>
+        <p class="hint">ตัวเลขจำลองเพื่อแสดง UI — ไม่ใช่สปีดเทสจริง</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2>ทำไมต้อง SecureVPN</h2>
+      <p class="section-desc">เหมาะกับคนที่ต้องการความเป็นส่วนตัวเวลาใช้เน็ตสาธารณะ หรือเข้าถึงคอนเทนต์ตามพื้นที่</p>
+      <div class="grid-3">
+        <article class="card">
+          <div class="icon">🔒</div>
+          <h3>เข้ารหัสการเชื่อมต่อ</h3>
+          <p>ช่วยปกป้องข้อมูลบน Wi‑Fi สาธารณะ เช่น คาเฟ่ หรือสนามบิน</p>
+        </article>
+        <article class="card">
+          <div class="icon">⚡</div>
+          <h3>เซิร์ฟเวอร์หลายจุด</h3>
+          <p>เลือกโลเคชันได้ตามแพ็กเกจ เพื่อความเสถียรและ latency ที่เหมาะสม</p>
+        </article>
+        <article class="card">
+          <div class="icon">📱</div>
+          <h3>ใช้ได้หลายอุปกรณ์</h3>
+          <p>รองรับแอป VPN ยอดนิยมบนมือถือและเดสก์ท็อป ตามคู่มือที่ให้หลังเช่า</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="plans" id="plans">
+    <div class="container">
+      <h2>แพ็กเกจเช่า</h2>
+      <p class="section-desc">ราคาตัวอย่าง — ปรับตัวเลขและรายละเอียดในไฟล์ได้ตามร้านของคุณ</p>
+      <div class="grid-3">
+        <article class="plan">
+          <h3>รายวัน</h3>
+          <p class="price"><span>฿19</span> / วัน</p>
+          <ul>
+            <li>1 อุปกรณ์</li>
+            <li>เซิร์ฟเวอร์พื้นฐาน</li>
+            <li>ความเร็วมาตรฐาน</li>
+            <li>เหมาะทดลองใช้งาน</li>
+          </ul>
+          <button class="btn btn-block" data-plan="รายวัน — ฿19">เลือกแพ็กนี้</button>
+        </article>
+        <article class="plan plan-hot">
+          <div class="tag">ยอดนิยม</div>
+          <h3>รายเดือน</h3>
+          <p class="price"><span>฿149</span> / เดือน</p>
+          <ul>
+            <li>สูงสุด 3 อุปกรณ์</li>
+            <li>เซิร์ฟเวอร์หลายประเทศ</li>
+            <li>ความเร็วสูงขึ้น</li>
+            <li>ซัพพอร์ตแชท</li>
+          </ul>
+          <button class="btn btn-block" data-plan="รายเดือน — ฿149">เลือกแพ็กนี้</button>
+        </article>
+        <article class="plan">
+          <h3>ราย 3 เดือน</h3>
+          <p class="price"><span>฿399</span> / 3 เดือน</p>
+          <ul>
+            <li>สูงสุด 5 อุปกรณ์</li>
+            <li>เซิร์ฟเวอร์พรีเมียม</li>
+            <li>ความเร็วสูงสุด</li>
+            <li>ส่วนลดระยะยาว</li>
+          </ul>
+          <button class="btn btn-block" data-plan="ราย 3 เดือน — ฿399">เลือกแพ็กนี้</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2>คำถามที่พบบ่อย</h2>
+      <details>
+        <summary>หลังจ่ายเงินจะได้อะไรบ้าง?</summary>
+        <p>ได้ข้อมูลบัญชี/คีย์ ตามแพ็กเกจ พร้อมลิงก์คู่มือติดตั้งบนมือถือหรือคอม ภายในเวลาที่ร้านกำหนด</p>
+      </details>
+      <details>
+        <summary>ใช้กับแอปไหนได้บ้าง?</summary>
+        <p>ขึ้นกับประเภทบริการที่ร้านให้ (เช่น โปรโตคอลที่รองรับ) จะแจ้งในคู่มือหลังเช่า</p>
+      </details>
+      <details>
+        <summary>ถ้ายกเลิกกลางทางได้ไหม?</summary>
+        <p>นโยบายคืนเงินขึ้นกับร้าน — แนะนำให้ระบุเงื่อนไขชัดเจนในหน้าติดต่อหรือหลังบ้าน</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container contact-box">
+      <div>
+        <h2>ติดต่อเช่า / สอบถาม</h2>
+        <p>กรอกฟอร์มด้านขวา ระบบจะเตรียมข้อความให้คัดลอกไปวางในแชท Line หรือ Telegram ของร้าน</p>
+        <ul class="contact-list">
+          <li>ตอบเร็วในเวลาทำการ</li>
+          <li>แจ้งแพ็กเกจที่สนใจได้เลย</li>
+          <li>ห้ามใช้เพื่อกิจกรรมผิดกฎหมาย</li>
+        </ul>
+      </div>
+      <form id="orderForm" class="form">
+        <label>
+          ชื่อหรือชื่อเล่น
+          <input type="text" name="name" required placeholder="เช่น บอย">
+        </label>
+        <label>
+          ช่องทางติดต่อ (Line / Telegram / เบอร์)
+          <input type="text" name="contact" required placeholder="@line หรือ เบอร์โทร">
+        </label>
+        <label>
+          แพ็กเกจที่สนใจ
+          <select name="plan" id="planSelect">
+            <option value="รายวัน — ฿19">รายวัน — ฿19</option>
+            <option value="รายเดือน — ฿149" selected>รายเดือน — ฿149</option>
+            <option value="ราย 3 เดือน — ฿399">ราย 3 เดือน — ฿399</option>
+          </select>
+        </label>
+        <label>
+          รายละเอียดเพิ่มเติม
+          <textarea name="note" rows="3" placeholder="เช่น ใช้บน Android 2 เครื่อง"></textarea>
+        </label>
+        <button type="submit" class="btn btn-block">สร้างข้อความสั่งซื้อ</button>
+        <p class="form-hint" id="formResult"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> SecureVPN — โปรเจกต์ตัวอย่างจาก Nexus Studio</p>
+      <p class="fine">ผู้ใช้บริการต้องปฏิบัติตามกฎหมายของประเทศตนเอง ผู้ให้บริการมีสิทธิ์ระงับบัญชีที่ใช้งานในทางที่ผิด</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
